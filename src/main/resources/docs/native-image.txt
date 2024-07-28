@@ -1,0 +1,4 @@
+To convert this shell application to native image
+
+1) ./mvnw -Pnative native:compile -DskipTests(creates native executables)
+2) go to target folder
